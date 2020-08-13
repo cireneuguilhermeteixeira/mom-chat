@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="569.0" prefWidth="335.0" style="-fx-border-radius: 20 20 0 0; -fx-background-radius: 20 20 0 0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.app.principal.listcontacts.ListContactsController">
+   <AnchorPane fx:id="anchorPaneListContacts" prefHeight="565.0" prefWidth="330.0">
+      <Label layoutX="95.0" layoutY="6.0" prefHeight="17.0" prefWidth="119.0" text="Meus Contatos" />
+   </AnchorPane>
+</ScrollPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane prefHeight="509.0" prefWidth="777.0" style="-fx-background-color: #000100;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.app.principal.chat.ChatController">
+    <AnchorPane fx:id="rootAnchorPane">
+
+        <stylesheets>
+            <URL value="@stylesheet.css" />
+        </stylesheets>
+        <effect>
+            <DropShadow blurType="GAUSSIAN" color="#0c0c0d" height="15.18" radius="10.059999999999999" spread="0.12" width="27.06" />
+        </effect>
+      <children>
+         <Label fx:id="labelContato" prefHeight="17.0" prefWidth="261.0"  textFill="#656262" />
+      </children>
+    </AnchorPane>
+</ScrollPane>
