@@ -125,7 +125,7 @@ public class PrincipalController {
     public void tratarMensagemRecebidaENotificarUsuario(Mensagem mensagem){
         tratarMensagem(mensagem, mensagem.getContato().getCelular());
         //getChatController().getMensagensDaConversaAtual().add(mensagem);
-        getChatController().montarMensagemRecebidaNaView(mensagem, getChatController().getMensagensDaConversaAtual().size());
+        getChatController().montarMensagemRecebidaNaView(mensagem, getChatController().getMensagensDaConversaAtual().size()-1);
 
     }
 }

@@ -66,8 +66,6 @@ public class SendTextController {
     }
 
 
-    public AnchorPane getAnchorPane(){
-        return this.anchorPaneFooter;
-    }
+
 
 }

@@ -21,7 +21,7 @@ public class ChatController {
     @FXML public AnchorPane rootAnchorPane;
     private ArrayList<Mensagem> mensagensDaConversaAtual = new ArrayList<>();
     private PrincipalController main;
-    private Boolean socketConectado = true;
+    private Boolean socketConectado = false;
     private String celularAtualDaConversa = "";
     public void init(PrincipalController principalController) {
         main = principalController;
@@ -33,8 +33,8 @@ public class ChatController {
 
 
     public void enviarMensagemParaChat(Mensagem mensagem){
-        montaMensagemEnviadaNaView(mensagem, mensagensDaConversaAtual.size()-1);
         enviaMensagemViaSocketOuFila(mensagem);
+        montaMensagemEnviadaNaView(mensagem, mensagensDaConversaAtual.size()-1);
     }
 
 
@@ -47,7 +47,8 @@ public class ChatController {
         return celularAtualDaConversa;
     }
 
-    public void atualizaConversa(Contato contato){
+
+    private void atualizaConversa(Contato contato){
         rootAnchorPane.getChildren().clear();
         Label label = new Label();
         label.setPrefHeight(17);
@@ -60,9 +61,9 @@ public class ChatController {
         if(mensagensDaConversaAtual!=null && !mensagensDaConversaAtual.isEmpty()){
             int i = 0;
             for (Mensagem mensagem: mensagensDaConversaAtual) {
-                if(mensagem.getContato().equals(contato)){
+                if(mensagem.getContato().getCelular().equals(contato.getCelular())){
                     montarMensagemRecebidaNaView(mensagem, i);
-                }else if(mensagem.getContato().equals(main.getUsuarioAtual())){
+                }else if(mensagem.getContato().getCelular().equals(main.getUsuarioAtual().getCelular())){
                     montaMensagemEnviadaNaView(mensagem, i);
                 }
                 i++;
@@ -178,7 +179,7 @@ public class ChatController {
 
     public void desconectar(){
         //TODO desconecte-se
-        main.stopThreadActiveMq();
+        //main.stopThreadActiveMq();
         //main.stopThreadSocket();
         socketConectado = false;
 

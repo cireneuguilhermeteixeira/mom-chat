@@ -30,7 +30,7 @@ public class ConsumidorActiveMq {
 		/*
 		 * Criando Queue
 		 */
-		Destination destination = session.createQueue(nomeFila);
+		Destination destination = session.createQueue("0000000");
 
 		/*
 		 * Criando Consumidor

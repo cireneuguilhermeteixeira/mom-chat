@@ -1,6 +1,7 @@
 package sample.services;
 
 import sample.app.principal.chat.ChatController;
+import sample.models.Contato;
 import sample.models.Mensagem;
 import sample.services.mom.ConsumidorActiveMq;
 
@@ -27,6 +28,11 @@ public class ChecaNovasMensagensThread implements Runnable {
                 Mensagem mensagem = new Mensagem();
                 mensagem = mensagem.convertStringToObject(resposta.getText());
                 System.out.println("Messagem: "+ mensagem.getConteudo()+", recebida na Fila");
+                Thread.sleep(2000);
+                Contato contato = new Contato();
+                contato.setCelular("0000000");
+                contato.setNome("Usuário 0");
+                mensagem.setContato(contato);
 
                 chatController.getPrincipalController().tratarMensagemRecebidaENotificarUsuario(mensagem);
 
