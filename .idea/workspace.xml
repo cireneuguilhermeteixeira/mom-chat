@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2fd2b0a6-0de0-4b51-ad65-840e82e25162" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ppd_mom_whatsapp_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfoenix_jfoenix_8_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_jensd_fontawesomefx_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_core_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_kahadb_5_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_protobuf_activemq_protobuf_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_j2ee_management_1_1_spec_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jms_1_1_spec_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_8_40_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtbuf_hawtbuf_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_hawtdispatch_hawtdispatch_transport_1_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_fusesource_mqtt_client_mqtt_client_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_asm_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ppd_mom_whatsapp_jar/ppd-mom-whatsapp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ppd_mom_whatsapp_jar/ppd_mom_whatsapp_jar.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ppd_mom_whatsapp_jar/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppd-mom-whatsapp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/app/inicio/InicioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/app/principal/PrincipalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/app/principal/chat/ChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/app/principal/listcontacts/ListContactsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/app/principal/sendtext/SendTextController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/models/Contato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/models/Mensagem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/services/ChecaNovasMensagensThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/services/mom/ConsumidorActiveMq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/services/mom/ProdutorActiveMq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/services/socket/ClientSocketChat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/services/socket/ServerSocketChat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/templates/CliDtg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/templates/CliStm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/templates/CliThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/templates/SrvDtg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/templates/SrvStm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/templates/SrvThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/logo-mobit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/inicio/inicio.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/inicio/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/principal/chat/chat.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/principal/chat/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/principal/listcontacts/listcontacts.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/principal/listcontacts/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/principal/principal.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/principal/sendtext/sendtext.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/view/principal/sendtext/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/logo-mobit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/assets/trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/Main$OnChangeSceen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/app/inicio/InicioController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/app/principal/PrincipalController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/app/principal/PrincipalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/app/principal/chat/ChatController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/app/principal/listcontacts/ListContactsController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/app/principal/listcontacts/ListContactsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/app/principal/sendtext/SendTextController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/models/Contato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/models/Mensagem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/services/ChecaNovasMensagensThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/services/mom/ConsumidorActiveMq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/services/mom/ProdutorActiveMq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/services/socket/ClientSocketChat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/services/socket/ServerSocketChat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/templates/CliDtg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/templates/CliStm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/templates/CliThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/templates/SrvDtg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/templates/SrvStm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/templates/SrvThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/inicio/inicio.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/inicio/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/principal/chat/chat.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/principal/chat/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/principal/listcontacts/listcontacts.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/principal/listcontacts/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/principal/principal.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/principal/sendtext/sendtext.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/principal/sendtext/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ppd-mom-whatsapp-1.0-SNAPSHOT.jar" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gC9jgoXGnUfxhu6ULnjAOf4659" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fd2b0a6-0de0-4b51-ad65-840e82e25162" name="Default Changelist" comment="" />
+      <created>1597607843925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597607843925</updated>
+      <workItem from="1597607849965" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

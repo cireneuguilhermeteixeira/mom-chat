@@ -1,0 +1,472 @@
+2020-08-03 23:06:54,051 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1552d9f3: startup date [Mon Aug 03 23:06:54 BRT 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2020-08-03 23:06:57,374 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 23:06:58,690 | INFO  | PListStore:[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2020-08-03 23:06:59,047 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-49229-1596506818726-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 23:06:59,102 | INFO  | Listening for connections at: tcp://DESKTOP-KNR0HT8:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-03 23:06:59,128 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-03 23:06:59,140 | INFO  | Listening for connections at: amqp://DESKTOP-KNR0HT8:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-03 23:06:59,144 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-03 23:06:59,155 | INFO  | Listening for connections at: stomp://DESKTOP-KNR0HT8:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-03 23:06:59,158 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-03 23:06:59,181 | INFO  | Listening for connections at: mqtt://DESKTOP-KNR0HT8:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-03 23:06:59,185 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-03 23:06:59,199 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-03 23:06:59,577 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-03 23:07:00,502 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@41a4459a{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2020-08-03 23:07:00,926 | INFO  | Listening for connections at ws://DESKTOP-KNR0HT8:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2020-08-03 23:07:00,928 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-03 23:07:00,933 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-49229-1596506818726-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 23:07:00,942 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 23:07:00,951 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb only has 14340 mb of usable space. - resetting to maximum available disk space: 14340 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 23:07:00,959 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data only has 14340 mb of usable space. - resetting to maximum available disk space: 14340 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 23:07:04,721 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-03 23:07:04,727 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-03 23:09:19,758 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp190373414-46
+2020-08-03 20:46:54,531 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@26c72c5a: startup date [Mon Aug 03 20:46:54 BRT 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2020-08-03 20:46:55,878 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 20:46:55,952 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-03 20:46:55,959 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-03 20:46:55,961 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-03 20:46:56,017 | INFO  | Recovering from the journal @1:6672 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-03 20:46:56,132 | INFO  | Recovery replayed 13 operations from the journal in 0.16 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-03 20:46:56,194 | INFO  | PListStore:[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2020-08-03 20:46:56,235 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-49731-1596498416026-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 20:46:56,342 | INFO  | Listening for connections at: tcp://DESKTOP-KNR0HT8:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-03 20:46:56,346 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-03 20:46:56,355 | INFO  | Listening for connections at: amqp://DESKTOP-KNR0HT8:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-03 20:46:56,358 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-03 20:46:56,366 | INFO  | Listening for connections at: stomp://DESKTOP-KNR0HT8:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-03 20:46:56,370 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-03 20:46:56,378 | INFO  | Listening for connections at: mqtt://DESKTOP-KNR0HT8:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-03 20:46:56,381 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-03 20:46:56,395 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-03 20:46:56,520 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-03 20:46:56,701 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@6eae138d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2020-08-03 20:46:56,775 | INFO  | Listening for connections at ws://DESKTOP-KNR0HT8:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2020-08-03 20:46:56,776 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-03 20:46:56,779 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-49731-1596498416026-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 20:46:56,781 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 20:46:56,788 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb only has 14305 mb of usable space. - resetting to maximum available disk space: 14305 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 20:46:56,793 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data only has 14305 mb of usable space. - resetting to maximum available disk space: 14305 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-03 20:46:58,333 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-03 20:46:58,334 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-03 20:51:58,000 | INFO  | Waited 2.002 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@30666c94[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-03 20:52:00,002 | INFO  | Waited 4.005 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@30666c94[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-03 20:52:02,006 | INFO  | Waited 6.009 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@30666c94[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-03 20:52:04,008 | INFO  | Waited 8.011 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@30666c94[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-03 20:52:05,998 | INFO  | Waited 10.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@30666c94[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-03 20:52:05,999 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@30666c94[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-03 20:52:06,001 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@30666c94[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-03 20:52:06,003 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@30666c94[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] is shutdown: true and terminated: false took: 10.006 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-03 20:52:06,004 | WARN  | Transport Connection to: tcp://127.0.0.1:49824 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:49824 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-13 02:58:50,268 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@26c72c5a: startup date [Thu Aug 13 02:58:50 BRT 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2020-08-13 02:58:51,753 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 02:58:51,826 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-13 02:58:51,830 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-13 02:58:51,832 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-13 02:58:51,880 | INFO  | PListStore:[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2020-08-13 02:58:52,084 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-52422-1597298331946-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 02:58:52,205 | INFO  | Listening for connections at: tcp://DESKTOP-KNR0HT8:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 02:58:52,208 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 02:58:52,217 | INFO  | Listening for connections at: amqp://DESKTOP-KNR0HT8:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 02:58:52,220 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 02:58:52,232 | INFO  | Listening for connections at: stomp://DESKTOP-KNR0HT8:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 02:58:52,235 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 02:58:52,243 | INFO  | Listening for connections at: mqtt://DESKTOP-KNR0HT8:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 02:58:52,246 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 02:58:52,259 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-13 02:58:52,411 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-13 02:58:52,687 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1f0844fa{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2020-08-13 02:58:52,796 | INFO  | Listening for connections at ws://DESKTOP-KNR0HT8:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2020-08-13 02:58:52,797 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 02:58:52,800 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-52422-1597298331946-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 02:58:52,802 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 02:58:52,809 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb only has 17810 mb of usable space. - resetting to maximum available disk space: 17810 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 02:58:52,815 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data only has 17810 mb of usable space. - resetting to maximum available disk space: 17810 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 02:58:54,311 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-13 02:58:54,312 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-13 03:00:55,021 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1359624016-49
+2020-08-13 03:08:04,218 | WARN  | Transport Connection to: tcp://127.0.0.1:52554 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:52554 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:08:22,490 | INFO  | Waited 2.002 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@494bc96[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:08:24,492 | INFO  | Waited 4.004 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@494bc96[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:08:26,495 | INFO  | Waited 6.007 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@494bc96[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:08:28,503 | INFO  | Waited 8.015 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@494bc96[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:08:30,490 | INFO  | Waited 10.002 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@494bc96[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:08:30,492 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@494bc96[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:08:30,495 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@494bc96[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:08:30,499 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@494bc96[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] is shutdown: true and terminated: false took: 10.011 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:08:30,501 | WARN  | Transport Connection to: tcp://127.0.0.1:52555 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:52555 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:36:53,065 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | qtp1359624016-47
+2020-08-13 03:36:58,318 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1359624016-73
+2020-08-13 03:44:50,002 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@75aa5e59: startup date [Thu Aug 13 03:44:49 BRT 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2020-08-13 03:44:51,253 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 03:44:51,317 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-13 03:44:51,325 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-13 03:44:51,327 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-13 03:44:51,375 | INFO  | PListStore:[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2020-08-13 03:44:51,574 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-52860-1597301091446-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 03:44:51,743 | INFO  | Listening for connections at: tcp://DESKTOP-KNR0HT8:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 03:44:51,746 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 03:44:51,755 | INFO  | Listening for connections at: amqp://DESKTOP-KNR0HT8:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 03:44:51,758 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 03:44:51,765 | INFO  | Listening for connections at: stomp://DESKTOP-KNR0HT8:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 03:44:51,768 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 03:44:51,776 | INFO  | Listening for connections at: mqtt://DESKTOP-KNR0HT8:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 03:44:51,779 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 03:44:51,791 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-13 03:44:51,902 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-13 03:44:52,100 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3346a9da{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2020-08-13 03:44:52,169 | INFO  | Listening for connections at ws://DESKTOP-KNR0HT8:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2020-08-13 03:44:52,170 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 03:44:52,173 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-52860-1597301091446-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 03:44:52,175 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 03:44:52,181 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb only has 17805 mb of usable space. - resetting to maximum available disk space: 17805 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 03:44:52,187 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data only has 17805 mb of usable space. - resetting to maximum available disk space: 17805 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 03:44:53,327 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-13 03:44:53,328 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-13 03:52:08,505 | WARN  | /admin/deleteDestination.action | org.eclipse.jetty.server.HttpChannel | qtp383668830-73
+javax.servlet.ServletException: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 17 more
+Caused by: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsyncServlet.service(ServletHolder.java:1411)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:763)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1631)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1618)
+	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1618)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1618)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:549)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1610)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1363)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:489)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1278)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 19 more
+Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:352)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1160)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:940)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 50 more
+2020-08-13 03:52:17,181 | WARN  | /admin/deleteDestination.action | org.eclipse.jetty.server.HttpChannel | qtp383668830-69
+javax.servlet.ServletException: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:500)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:547)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:103)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:117)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:135)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: javax.servlet.ServletException: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:162)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 16 more
+Caused by: org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder$NotAsyncServlet.service(ServletHolder.java:1411)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:763)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1631)
+	at org.eclipse.jetty.websocket.server.WebSocketUpgradeFilter.doFilter(WebSocketUpgradeFilter.java:226)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1618)
+	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1618)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1618)
+	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1610)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:549)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:567)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1610)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1363)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:489)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1278)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:146)
+	... 18 more
+Caused by: java.lang.UnsupportedOperationException: Possible CSRF attack
+	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:352)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1160)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:940)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	... 49 more
+2020-08-13 03:53:38,563 | INFO  | Waited 2.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@1dcbfea8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 17] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:53:40,567 | INFO  | Waited 4.005 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@1dcbfea8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 17] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:53:42,569 | INFO  | Waited 6.007 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@1dcbfea8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 17] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:53:44,573 | INFO  | Waited 8.011 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@1dcbfea8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 17] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:53:46,564 | INFO  | Waited 10.002 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@1dcbfea8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 17] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:53:46,565 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@1dcbfea8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 17] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:53:46,567 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@1dcbfea8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 17] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:53:46,569 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@1dcbfea8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 17] is shutdown: true and terminated: false took: 10.007 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 03:53:46,571 | WARN  | Transport Connection to: tcp://127.0.0.1:52897 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:52897 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-13 09:03:35,627 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@26c72c5a: startup date [Thu Aug 13 09:03:35 BRT 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2020-08-13 09:03:37,506 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 09:03:37,616 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-13 09:03:37,626 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 78 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-13 09:03:37,628 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-13 09:03:37,688 | INFO  | PListStore:[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2020-08-13 09:03:37,911 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-53266-1597320217763-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 09:03:38,044 | INFO  | Listening for connections at: tcp://DESKTOP-KNR0HT8:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 09:03:38,047 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 09:03:38,057 | INFO  | Listening for connections at: amqp://DESKTOP-KNR0HT8:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 09:03:38,061 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 09:03:38,070 | INFO  | Listening for connections at: stomp://DESKTOP-KNR0HT8:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 09:03:38,073 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 09:03:38,084 | INFO  | Listening for connections at: mqtt://DESKTOP-KNR0HT8:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 09:03:38,087 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 09:03:38,101 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-13 09:03:38,289 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-13 09:03:38,593 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1f0844fa{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2020-08-13 09:03:38,714 | INFO  | Listening for connections at ws://DESKTOP-KNR0HT8:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2020-08-13 09:03:38,716 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 09:03:38,718 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-53266-1597320217763-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 09:03:38,720 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 09:03:38,728 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb only has 17810 mb of usable space. - resetting to maximum available disk space: 17810 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 09:03:38,734 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data only has 17810 mb of usable space. - resetting to maximum available disk space: 17810 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 09:03:41,177 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-13 09:03:41,178 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-13 10:02:11,291 | INFO  | Waited 2.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@17e5e19a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:02:13,294 | INFO  | Waited 4.005 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@17e5e19a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:02:15,297 | INFO  | Waited 6.008 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@17e5e19a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:02:17,299 | INFO  | Waited 8.010 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@17e5e19a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:02:19,290 | INFO  | Waited 10.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@17e5e19a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:02:19,291 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@17e5e19a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:02:19,293 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@17e5e19a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:02:19,295 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@17e5e19a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] is shutdown: true and terminated: false took: 10.006 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:02:19,297 | WARN  | Transport Connection to: tcp://127.0.0.1:53947 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:53947 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:25:53,845 | INFO  | Waited 2.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@603c1dc3[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:25:55,849 | INFO  | Waited 4.005 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@603c1dc3[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:25:57,852 | INFO  | Waited 6.008 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@603c1dc3[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:25:59,864 | INFO  | Waited 8.020 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@603c1dc3[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:26:01,845 | INFO  | Waited 10.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@603c1dc3[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:26:01,846 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@603c1dc3[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:26:01,848 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@603c1dc3[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:26:01,850 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@603c1dc3[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 11] is shutdown: true and terminated: false took: 10.006 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-13 10:26:01,852 | WARN  | Transport Connection to: tcp://127.0.0.1:54057 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:54057 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-13 14:51:15,625 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@75aa5e59: startup date [Thu Aug 13 14:51:15 BRT 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2020-08-13 14:51:17,338 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 14:51:17,430 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-13 14:51:17,438 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 84 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-13 14:51:17,441 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-13 14:51:17,476 | INFO  | Recovering from the journal @1:150595 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-13 14:51:17,490 | INFO  | Recovery replayed 3 operations from the journal in 0.042 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-13 14:51:17,560 | INFO  | PListStore:[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2020-08-13 14:51:17,717 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-51569-1597341077579-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 14:51:17,750 | INFO  | Listening for connections at: tcp://DESKTOP-KNR0HT8:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 14:51:17,753 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 14:51:17,761 | INFO  | Listening for connections at: amqp://DESKTOP-KNR0HT8:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 14:51:17,765 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 14:51:17,772 | INFO  | Listening for connections at: stomp://DESKTOP-KNR0HT8:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 14:51:17,775 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 14:51:17,782 | INFO  | Listening for connections at: mqtt://DESKTOP-KNR0HT8:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-13 14:51:17,786 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 14:51:17,800 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-13 14:51:17,963 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-13 14:51:18,256 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1c0cc22b{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2020-08-13 14:51:18,387 | INFO  | Listening for connections at ws://DESKTOP-KNR0HT8:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2020-08-13 14:51:18,389 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-13 14:51:18,391 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-51569-1597341077579-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 14:51:18,393 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 14:51:18,400 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb only has 17829 mb of usable space. - resetting to maximum available disk space: 17829 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 14:51:18,404 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data only has 17829 mb of usable space. - resetting to maximum available disk space: 17829 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-13 14:51:20,090 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-13 14:51:20,091 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-15 00:44:52,409 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@26c72c5a: startup date [Sat Aug 15 00:44:52 BRT 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2020-08-15 00:44:53,918 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Cireneu\Documents\projetos\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-15 00:44:54,018 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-15 00:44:54,027 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-15 00:44:54,031 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 66 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-15 00:44:54,102 | INFO  | PListStore:[C:\Users\Cireneu\Documents\projetos\apache-activemq-5.16.0\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2020-08-15 00:44:54,323 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-50274-1597463094178-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-15 00:44:54,464 | INFO  | Listening for connections at: tcp://DESKTOP-KNR0HT8:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-15 00:44:54,468 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-15 00:44:54,476 | INFO  | Listening for connections at: amqp://DESKTOP-KNR0HT8:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-15 00:44:54,480 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-15 00:44:54,487 | INFO  | Listening for connections at: stomp://DESKTOP-KNR0HT8:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-15 00:44:54,490 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-15 00:44:54,497 | INFO  | Listening for connections at: mqtt://DESKTOP-KNR0HT8:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-15 00:44:54,504 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-15 00:44:54,517 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-15 00:44:54,662 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-15 00:44:54,922 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@45c166d2{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2020-08-15 00:44:55,027 | INFO  | Listening for connections at ws://DESKTOP-KNR0HT8:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2020-08-15 00:44:55,028 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-15 00:44:55,031 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-50274-1597463094178-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-15 00:44:55,033 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-15 00:44:55,040 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb only has 17729 mb of usable space. - resetting to maximum available disk space: 17729 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-15 00:44:55,046 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\apache-activemq-5.16.0\bin\win64\..\..\data only has 17728 mb of usable space. - resetting to maximum available disk space: 17728 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-15 00:44:56,735 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-15 00:44:56,736 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-15 01:49:23,207 | INFO  | Waited 2.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@4f2e8222[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-15 01:49:25,209 | INFO  | Waited 4.004 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@4f2e8222[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-15 01:49:27,214 | INFO  | Waited 6.009 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@4f2e8222[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-15 01:49:29,217 | INFO  | Waited 8.012 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@4f2e8222[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-15 01:49:31,206 | INFO  | Waited 10.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@4f2e8222[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-15 01:49:31,210 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@4f2e8222[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-15 01:49:31,212 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@4f2e8222[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-15 01:49:31,213 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@4f2e8222[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] is shutdown: true and terminated: false took: 10.008 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-15 01:49:31,214 | WARN  | Transport Connection to: tcp://127.0.0.1:50762 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:50762 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-16 19:24:10,264 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@b6eb97c: startup date [Sun Aug 16 19:24:10 BRT 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2020-08-16 19:24:11,575 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-16 19:24:11,642 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-16 19:24:11,650 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 42 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-16 19:24:11,652 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-16 19:24:11,706 | INFO  | PListStore:[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2020-08-16 19:24:11,902 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-52093-1597616651773-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-16 19:24:12,058 | INFO  | Listening for connections at: tcp://DESKTOP-KNR0HT8:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-16 19:24:12,061 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-16 19:24:12,069 | INFO  | Listening for connections at: amqp://DESKTOP-KNR0HT8:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-16 19:24:12,073 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-16 19:24:12,080 | INFO  | Listening for connections at: stomp://DESKTOP-KNR0HT8:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-16 19:24:12,083 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-16 19:24:12,090 | INFO  | Listening for connections at: mqtt://DESKTOP-KNR0HT8:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-16 19:24:12,093 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-16 19:24:12,104 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-16 19:24:12,233 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-16 19:24:12,432 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@275372b0{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2020-08-16 19:24:12,517 | INFO  | Listening for connections at ws://DESKTOP-KNR0HT8:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2020-08-16 19:24:12,518 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-16 19:24:12,520 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-52093-1597616651773-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-16 19:24:12,523 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-16 19:24:12,530 | WARN  | Store limit is 102400 mb (current store usage is 1 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb only has 17651 mb of usable space. - resetting to maximum available disk space: 17651 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-16 19:24:12,536 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data only has 17650 mb of usable space. - resetting to maximum available disk space: 17650 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-16 19:24:13,904 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-16 19:24:13,909 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-17 08:16:50,160 | INFO  | Waited 2.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@5fb7132a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 08:16:52,168 | INFO  | Waited 4.012 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@5fb7132a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 08:16:54,172 | INFO  | Waited 6.016 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@5fb7132a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 08:16:56,176 | INFO  | Waited 8.020 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@5fb7132a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 08:16:58,159 | INFO  | Waited 10.003 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@5fb7132a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 08:16:58,164 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@5fb7132a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 08:16:58,166 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@5fb7132a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 08:16:58,169 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@5fb7132a[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 6] is shutdown: true and terminated: false took: 10.012 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 08:16:58,171 | WARN  | Transport Connection to: tcp://127.0.0.1:52993 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:52993 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:08:56,882 | INFO  | Waited 2.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@74e189c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:08:58,889 | INFO  | Waited 4.009 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@74e189c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:09:00,892 | INFO  | Waited 6.012 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@74e189c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:09:02,895 | INFO  | Waited 8.015 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@74e189c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:09:04,881 | INFO  | Waited 10.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@74e189c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:09:04,883 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@74e189c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:09:04,886 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@74e189c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:09:04,888 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@74e189c[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] is shutdown: true and terminated: false took: 10.008 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:09:04,891 | WARN  | Transport Connection to: tcp://127.0.0.1:52073 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:52073 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:13:11,311 | INFO  | Waited 2.000 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@56d62c37[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:13:13,314 | INFO  | Waited 4.003 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@56d62c37[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:13:15,317 | INFO  | Waited 6.006 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@56d62c37[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:13:17,321 | INFO  | Waited 8.010 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@56d62c37[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:13:19,312 | INFO  | Waited 10.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@56d62c37[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:13:19,317 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@56d62c37[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:13:19,320 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@56d62c37[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:13:19,326 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@56d62c37[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] is shutdown: true and terminated: false took: 10.015 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:13:19,331 | WARN  | Transport Connection to: tcp://127.0.0.1:52109 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:52109 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:46:52,037 | INFO  | Waited 2.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@703636b8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:46:54,040 | INFO  | Waited 4.004 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@703636b8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:46:56,047 | INFO  | Waited 6.011 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@703636b8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:46:58,049 | INFO  | Waited 8.013 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@703636b8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:47:00,038 | INFO  | Waited 10.002 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@703636b8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:47:00,039 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@703636b8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:47:00,042 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@703636b8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:47:00,044 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@703636b8[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 20] is shutdown: true and terminated: false took: 10.008 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 10:47:00,046 | WARN  | Transport Connection to: tcp://127.0.0.1:62961 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:62961 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-17 11:19:14,216 | INFO  | Waited 2.001 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@138db88[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 11:19:16,219 | INFO  | Waited 4.004 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@138db88[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 11:19:18,222 | INFO  | Waited 6.007 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@138db88[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 11:19:20,224 | INFO  | Waited 8.009 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@138db88[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 11:19:22,218 | INFO  | Waited 10.003 seconds for ExecutorService: java.util.concurrent.ThreadPoolExecutor@138db88[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] to terminate... | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 11:19:22,220 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@138db88[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] due first await termination elapsed. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 11:19:22,222 | WARN  | Forcing shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@138db88[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] due interrupted. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 11:19:22,225 | INFO  | Shutdown of ExecutorService: java.util.concurrent.ThreadPoolExecutor@138db88[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 5] is shutdown: true and terminated: false took: 10.010 seconds. | org.apache.activemq.util.ThreadPoolUtils | ActiveMQ InactivityMonitor Worker
+2020-08-17 11:19:22,226 | WARN  | Transport Connection to: tcp://127.0.0.1:63211 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:63211 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker
+2020-08-17 12:05:26,951 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@2a5fcc2e: startup date [Mon Aug 17 12:05:26 BRT 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | WrapperSimpleAppMain
+2020-08-17 12:05:28,456 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-17 12:05:28,547 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-17 12:05:28,555 | INFO  | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 30 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2020-08-17 12:05:28,557 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2020-08-17 12:05:28,612 | INFO  | PListStore:[C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2020-08-17 12:05:28,823 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-50146-1597676728682-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-17 12:05:28,989 | INFO  | Listening for connections at: tcp://DESKTOP-KNR0HT8:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-17 12:05:28,991 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-17 12:05:28,998 | INFO  | Listening for connections at: amqp://DESKTOP-KNR0HT8:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-17 12:05:29,004 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-17 12:05:29,013 | INFO  | Listening for connections at: stomp://DESKTOP-KNR0HT8:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-17 12:05:29,018 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-17 12:05:29,026 | INFO  | Listening for connections at: mqtt://DESKTOP-KNR0HT8:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2020-08-17 12:05:29,029 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-17 12:05:29,042 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-17 12:05:29,214 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2020-08-17 12:05:29,660 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@405cdaa1{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2020-08-17 12:05:29,974 | INFO  | Listening for connections at ws://DESKTOP-KNR0HT8:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2020-08-17 12:05:29,975 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2020-08-17 12:05:29,977 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:DESKTOP-KNR0HT8-50146-1597676728682-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-17 12:05:29,980 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-17 12:05:29,986 | WARN  | Store limit is 102400 mb (current store usage is 1 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data\kahadb only has 17307 mb of usable space. - resetting to maximum available disk space: 17307 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-17 12:05:29,994 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Cireneu\Documents\projetos\ppd-mom-whatsapp\apache-activemq-5.16.0\bin\win64\..\..\data only has 17306 mb of usable space. - resetting to maximum available disk space: 17306 mb | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2020-08-17 12:05:31,308 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2020-08-17 12:05:31,309 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain

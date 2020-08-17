@@ -5,13 +5,13 @@ import java.io.Serializable;
 public class MensagemSocket implements Serializable {
 
     private String tipo;
-    private Mensagem conteudo;
+    private Object conteudo;
 
-    public Mensagem getConteudo() {
+    public Object getConteudo() {
         return conteudo;
     }
 
-    public void setConteudo(Mensagem conteudo) {
+    public void setConteudo(Object conteudo) {
         this.conteudo = conteudo;
     }
 
@@ -22,4 +22,6 @@ public class MensagemSocket implements Serializable {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+
 }
